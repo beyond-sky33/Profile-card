@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    background: rgb(101, 219, 229);
+    background: linear-gradient(90deg, rgba(101, 219, 229, 1) 4%, rgba(0, 248, 232, 1) 53%, rgba(104, 210, 211, 1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card {
+    height: 450px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+}
+
+#card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#card h1 {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#card p {
+    color: rgba(60, 56, 56, 0.698);
+    font-size: 15px;
+}
+
+#card h5 {
+    color: red;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+#card button {
+    padding: 8px 20px;
+    background-color: rgb(101, 219, 229);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#card button:hover{
+    background-color: rgba(45, 218, 45, 0.851);
+    transition: all 0.5s;
+}
